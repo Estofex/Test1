@@ -1,0 +1,33 @@
+def printlist():
+    for i in range(len(name1)):
+        print(name1[i]+ ', '+ name2[i])
+
+name1 = ['John Doe', '192.168.48.22', '192.168.48.00/24', '192.168.48.1',
+'Dell Optiplex', '5050']
+
+name2 = ['Jane Doe', '192.168.48.44', '192.168.48.00/24', '192.168.48.1',
+'Hp', 'pc7090']
+
+printlist()
+
+names=['John Doe', 'Jane Doe']
+IP =['192.168.48.22', '192.168.48.44']
+Net =['192.168.48.00/24', '192.168.48.00/24']
+Gate =['192.168.48.1', '192.168.48.1']
+Pc =['Dell Optiplex','Hp']
+Mod=['5050', 'pc7090']
+
+newname = input('Enter a new name')
+names.append('new names')
+newIP = input('Enter a new IP')
+IP.append('new IP')
+newNet = input('Enter a new Net')
+Net.append('new Net')
+newGate = input('Enter a new Gat')
+Gate.append('new Gate')
+newPc = input ('Enter a new Pc')
+Pc.append('new Pc')
+newMod = input ('Enter a new Mod')
+Mod.append('new Mod')
+
+printlist()
